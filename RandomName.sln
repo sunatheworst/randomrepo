@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D160DCD-4DFB-4B89-9099-6FB93A997DB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{2F054697-7BC6-4046-A349-9A1575A1A6D3}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A04A0519-FF25-4EAF-BFFE-B059878DDF66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{F9708080-4282-42CA-A211-B990D1BE8271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomName.WebApi", "src\RandomName.WebApi\RandomName.WebApi.csproj", "{8209438E-A4D0-4157-991C-A64E5B529FC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8209438E-A4D0-4157-991C-A64E5B529FC2} = {6D160DCD-4DFB-4B89-9099-6FB93A997DB9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8209438E-A4D0-4157-991C-A64E5B529FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8209438E-A4D0-4157-991C-A64E5B529FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8209438E-A4D0-4157-991C-A64E5B529FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8209438E-A4D0-4157-991C-A64E5B529FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
