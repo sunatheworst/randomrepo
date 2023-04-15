@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  random_name_api:
+    image: randomameapi
+    build:
+      context: .
+    ports:
+      - "5229:80"
