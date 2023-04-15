@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Npgsql;
 
 namespace RandomName.WebApi.Controllers;
 
@@ -18,8 +19,8 @@ public class WeatherForecastController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "About")]
-    public string About() => "TestApi";
+    [HttpGet("test")]
+    public string About() => "TEST!";
     
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
